@@ -1,0 +1,41 @@
+.terrain {
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+    align-items: flex-end;
+    // justify-content: space-around; // Ajoutez si nécessaire pour espacer les images
+  }
+  .imagesContainer {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  img {
+    height: 250px;
+    width: auto;
+    margin: 0;
+    user-select: none;-webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  
+  }
+
+.up{
+  transform: translateY(-10%);
+}
+
+.down{
+  transform: translateY(25%);
+}
